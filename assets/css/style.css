@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+/* all: unset; */
+}
+
+input {
+    all: unset;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.default-container {
+    max-width: 1248px;
+    margin: auto;
+}
+.start {
+    background-color: #f7f7f7;
+    height: 43px;
+    color: #333333;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start ul {
+    display: flex;
+}
+.start ul li:nth-child(n+2) {
+    margin-left: 15px; 
+}
+.contact {
+    height: 76px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact  ul {
+    display: flex;
+    width: 288px;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #525252;
+}
+
+.im {
+    color: #000;
+    font-size: 64px;
+    margin-top: 128px;
+    /* margin-bottom: 128px; */
+}
+
+.im span {
+    color: #757575;
+}
+
+.work {
+    margin-top: 182px;
+    font-size: 16px;
+    color: #000;
+}
+.work span {
+    color: #757575;
+}
+.section4 {
+    margin-top: 31px;
+    display: flex;
+    
+}
+.elements {
+    display: grid;
+    gap: 24px;
+    height: 1863px;
+    width: 612px;
+    margin-right: 24px;
+}
+.element2 img {
+    width: 612px;
+    height: 612px;
+    margin-bottom: -3px;
+}
+.under-image {
+    height: 104px;
+    font-size: 18px;
+    background-color: #f7f7f7;
+    padding: 24px;
+    border-radius:0 0 10px 10px;
+}
+.under-image p:last-child {
+    margin-top: 4px;
+    color: #757575;
+}
+
+
+
+
+.element1 img {
+    width: 612px;
+    height: 434px;
+    margin-bottom: -3px;
+}
+
+
+
+
+
+
+.about {
+    margin-top: 128px;
+    text-align: center;
+}
+.about-me {
+    display:flex;
+    font-size: 30px;
+    margin-bottom: 128px;
+    text-align: left;
+}
+.about-me div:first-child p {
+    margin-right: 517px;
+    width: 143px;
+}
+.about-me p:nth-child(n+2) {
+    margin-top: 32px;
+}
+.about img {
+    width: 1440px;
+    height: 720px;
+}
+
+
+.experience {
+    display: flex;
+    margin-top: 128px;
+}
+.exper {
+    font-size: 30px;
+    margin-right: 494px;
+}
+
+.company {
+    width: 588px;
+    height: 151px;
+    border-bottom: solid 1.5px #f0f0f0;
+    margin-bottom: 48px;
+}
+.company p:first-child {
+    font-size: 18px;
+    margin-bottom: 4px;    
+}
+.company p:nth-child(2n) {
+    font-size: 17px;
+    color: #525252;
+    margin-bottom: 16px;
+}
+.company p:last-child {
+    font-size: 19px;
+    color: #757575;
+}
+.experience div:last-child {
+    border: none;
+}
+
+
+.section7 {
+    display: grid;
+    gap: 72px;
+    grid-template-columns: 1fr 1fr;
+}
+.section7 div h1 {
+    margin-bottom: 63px;
+    font-weight: 400 ;   
+}
+.section7 div p {
+    font-size: 18px;
+    width: 588px;
+    height: 51px;
+    border-bottom: solid 1.5px #f0f0f0;
+    margin-bottom: 24px;
+}
+.section7 div p:last-child {
+    border: none;
+    margin-bottom: 0;
+}
+
+
+.section8 {
+    margin-top: 128px;
+    margin-bottom: 128px;
+    background-color: #ffebd8;
+    height: 591px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.container {
+    width: 700px;
+    height: 335px;
+    font-size: 57px;
+    text-align: center;
+}
+.container p:last-child {
+    font-size: 37px;
+    margin-top: 64px;
+}
+
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    height: 95px;
+    border-bottom: solid 1.5px #f0f0f0;
+}
+.home ul {
+    width: 335px;
+    font-size:19px ;
+    display: flex;
+    justify-content:space-around ;
+}
+.last {
+    display: flex;
+    font-size: 14px;
+    margin-top: 64px;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+.last ul {
+    display: flex;
+    justify-content: space-around;
+    width: 339px;
+}
+.last ul:last-child {
+    color: #525252;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
